@@ -1,3 +1,5 @@
+export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
+
 # This loads Visual Studio Code
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
