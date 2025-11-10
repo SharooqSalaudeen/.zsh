@@ -1,4 +1,6 @@
 # Aliases
+alias zshrc="code ~/.zshrc"
+alias zshreload="source ~/.zshrc"
 alias zshconfig="code ~/.zsh/"
 alias brewup="brew update; brew upgrade; brew cleanup; brew doctor"
 alias t='[ -n "$TMUX" ] && echo "Already inside tmux" || tmux attach \; choose-tree -Zs || tmux new -s "$(basename "$PWD")"'
