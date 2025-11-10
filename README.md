@@ -1,4 +1,4 @@
-Add the following line to .zshrc file
+1. Add the following line to .zshrc file
 
 ```for config (~/.zsh/*.zsh) source $config```
 
@@ -6,7 +6,7 @@ Add the following line to .zshrc file
 
 
 
-Go to directory .oh-my-zsh/custom/plugins
+2. Go to directory .oh-my-zsh/custom/plugins
 
 Clone the following plugins
 
