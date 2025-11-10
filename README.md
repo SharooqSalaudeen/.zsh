@@ -1,6 +1,8 @@
 Add the following line to .zshrc file
 
 ```for config (~/.zsh/*.zsh) source $config```
+```source $ZSH/oh-my-zsh.sh```
+
 
 
 Go to directory .oh-my-zsh/custom/plugins
