@@ -14,8 +14,6 @@ ZSH_THEME="robbyrussell"
 # Plugins
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting copypath history dirhistory)
 
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -28,7 +26,6 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
-
 
 # This loads NVM
 export NVM_DIR="$HOME/.nvm"

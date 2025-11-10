@@ -3,7 +3,7 @@ export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 # This loads Visual Studio Code
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
-#Y arn global
+# Yarn global
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # >>> conda initialize >>>
@@ -33,5 +33,15 @@ export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+# Zsh cache directory
+ZSH_CACHE_DIR="$HOME/.cache/zsh"
+# Ensure the cache directory exists
+[[ ! -d "$ZSH_CACHE_DIR" ]] && mkdir -p "$ZSH_CACHE_DIR"
+
 # Zcomp dump location
-export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+ZSH_COMPDUMP="$ZSH_CACHE_DIR/.zcompdump-$(hostname)"
+
+# Optional: set history file in cache as well
+HISTFILE="$ZSH_CACHE_DIR/.zsh_history"
+SAVEHIST=10000
+HISTSIZE=10000
