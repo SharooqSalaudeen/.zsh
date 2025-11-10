@@ -1,12 +1,13 @@
-1. Add the following line to .zshrc file
+1. Crete fodler .zsh in home direcotry and clone this repo
+
+2. Add the following line to .zshrc file in home directory
 
 ```for config (~/.zsh/*.zsh) source $config```
 
 ```source $ZSH/oh-my-zsh.sh```
 
 
-
-2. Go to directory .oh-my-zsh/custom/plugins
+3. Go to directory .oh-my-zsh/custom/plugins
 
 Clone the following plugins
 
